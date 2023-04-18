@@ -21,7 +21,7 @@ class HandTest {
     @Test
     void testGetValueSingleCard() {
         hand.addCard(new Card(Card.Suit.CLUBS, Card.Rank.ACE));
-        assertEquals(12, hand.getValue());
+        assertEquals(11, hand.getValue());
     }
 
     @Test
